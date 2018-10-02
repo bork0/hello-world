@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Notable');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 20%;
+    background-image: url(math.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #C70039;
+    font-family: 'Notable', sans-serif;
+    grid-area: 2/2/3/5;
+}
+
+form {
+    text-align: center;
+    grid-area: 3/2/5/5;
+}
+
+form input {
+    color: #C70039;
+    border-radius: 20px;
+}
+
+label {
+    color: #C70039;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: inherit;
+    border-radius: 20px;
+}
+
+footer {
+    grid-area: 5/3/6/4;
+    margin: 25px;
+    text-align: right;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
